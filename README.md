@@ -1,6 +1,6 @@
-# strava-runs-to-csv
+# About
 
-## About
+![Screenshot of CSV file produced](strava-runs-to-csv-screenshot.png)
 
 **strava-runs-to-csv** is a Node.js application that allows you to easily fetch all of your running activities from Strava and export them into a neatly formatted CSV file. The generated CSV includes useful headers such as run number, activity name, distance, pace, time, kudos count, date of run, and a link to view each run on Strava.
 
@@ -8,15 +8,15 @@ This tool provides a simple and organized way to view all your runs and stats in
 
 
 
-## Built With
+# Built With
 
 * [![Node.js][Node.js]][Node-url]
 * [![Express.js][Express.js]][Express-url]
 * [![TypeScript][TypeScript]][TypeScript-url]
 
   <!-- GETTING STARTED -->
-## Getting Started
-### Prerequisites
+# Getting Started
+## Prerequisites
 
 Before you begin, ensure you have the following:
 
@@ -30,7 +30,7 @@ Before you begin, ensure you have the following:
 
 2. **Node.js and npm**: Make sure you have [Node.js](https://nodejs.org/) installed on your system, which includes `npm` (Node Package Manager). This project requires Node.js to run the server and `npm` to install dependencies.
 
-### Installation
+## Installation
 
 1. Clone the repo
    ```sh
@@ -46,11 +46,11 @@ Before you begin, ensure you have the following:
    STRAVA_CLIENT_SECRET=YOUR_CLIENT_SECRET
    STRAVA_REDIRECT_URI=http://localhost:3000
    ```
-## Usage
+# Usage
 
 Once you have set up the `strava-runs-to-csv` application and installed all dependencies, you can start using it to fetch your running data from Strava and export it to a CSV file.
 
-### Running the Application
+## Running the Application
 
 1. **Compile TypeScript Code**  
    Before running the application, make sure to compile the TypeScript code to JavaScript. Open your terminal, navigate to the project directory, run the following command:
